@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="16a37959-4e82-4a82-96a7-42ed419223b8" name="Changes" comment="prueba">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ejercicios/UtilContexto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Anotations/EmpleadoI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Anotations/EmpleadoAnot.java" afterDir="false" />
+    <list default="true" id="16a37959-4e82-4a82-96a7-42ed419223b8" name="Changes" comment="Avance">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/ejercicios/Directivo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ejercicios/Directivo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/ejercicios/Empleado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ejercicios/Empleado.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/ejercicios/Empresa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ejercicios/Empresa.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/ejercicios/Oficial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ejercicios/Oficial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ejercicios/Operario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ejercicios/Operario.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/ejercicios/Tecnico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ejercicios/Tecnico.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +66,7 @@
       <option name="presentableId" value="Default" />
       <updated>1696588030805</updated>
       <workItem from="1696588031828" duration="883000" />
-      <workItem from="1697008362109" duration="416000" />
+      <workItem from="1697008362109" duration="1048000" />
     </task>
     <task id="LOCAL-00001" summary="Creacion proyecto">
       <option name="closed" value="true" />
@@ -84,7 +84,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697008482311</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Avance">
+      <option name="closed" value="true" />
+      <created>1697008814306</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1697008814306</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -93,6 +101,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Creacion proyecto" />
     <MESSAGE value="prueba" />
-    <option name="LAST_COMMIT_MESSAGE" value="prueba" />
+    <MESSAGE value="Avance" />
+    <option name="LAST_COMMIT_MESSAGE" value="Avance" />
   </component>
 </project>

@@ -5,8 +5,8 @@ import Anotations.EmpleadoAnot;
 import java.util.HashSet;
 import java.util.Set;
 
-@EmpleadoAnot(
-        value = {}, nombre = "Amancio", apellidos = "Ortega", dni = "66554433F")
+@EmpleadoAnot(nombre = "Amancio", apellidos = "Ortega", dni = "66554433F")
+@EmpleadoAnot(nombre = "Rosa", apellidos = "Jimenez", dni = "112233B")
 public class Empresa {
     private Set<Empleado> empleadoset = new HashSet<>();
 
