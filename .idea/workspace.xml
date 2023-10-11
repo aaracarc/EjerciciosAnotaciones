@@ -5,9 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16a37959-4e82-4a82-96a7-42ed419223b8" name="Changes" comment="Avance">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Anotations/EmpleadosAnot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/models/Directivo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/models/Empleado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/models/Oficial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/models/Operario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/models/Tecnico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/utils/UtilContexto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Anotations/EmpleadoAnot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Anotations/EmpleadoAnot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Anotations/EmpleadoAnot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/anotations/EmpleadoAnot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Anotations/EmpleadosAnot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/anotations/EmpleadosAnot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ejercicios/Directivo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ejercicios/Empleado.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ejercicios/Empresa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/models/Empresa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ejercicios/Oficial.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ejercicios/Operario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ejercicios/Tecnico.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ejercicios/UtilContexto.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,17 +32,32 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;aaracarc&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="2f77d740-053a-4fc1-9669-5cfd2d935bbb" />
+        <option name="url" value="https://github.com/aaracarc/EjerciciosAnotaciones.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2Wbjpyg5I2J3rcSEiKgTGg8ukkz" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -40,6 +70,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "/home/ainhoa/IdeaProjects/EjerciciosAnotaciones",
     "node.js.detected.package.eslint": "true",
@@ -54,6 +86,67 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.ejercicios" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.EmpresaTest.testTresEmpleadosDiferentes">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.ejercicios.Main" />
+      <module name="EjerciciosAnotaciones" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmpresaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EjerciciosAnotaciones" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.ejercicios" />
+      <option name="MAIN_CLASS_NAME" value="org.models.EmpresaTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmpresaTest.testTresEmpleadosDiferentes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EjerciciosAnotaciones" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.ejercicios" />
+      <option name="MAIN_CLASS_NAME" value="org.models.EmpresaTest" />
+      <option name="METHOD_NAME" value="testTresEmpleadosDiferentes" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.EmpresaTest.testTresEmpleadosDiferentes" />
+        <item itemvalue="JUnit.EmpresaTest" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -64,6 +157,8 @@
       <updated>1696588030805</updated>
       <workItem from="1696588031828" duration="883000" />
       <workItem from="1697008362109" duration="3402000" />
+      <workItem from="1697017358127" duration="83000" />
+      <workItem from="1697034444782" duration="4684000" />
     </task>
     <task id="LOCAL-00001" summary="Creacion proyecto">
       <option name="closed" value="true" />

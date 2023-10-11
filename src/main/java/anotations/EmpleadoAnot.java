@@ -1,4 +1,4 @@
-package Anotations;
+package anotations;
 
 import java.lang.annotation.*;
 
@@ -6,6 +6,7 @@ import java.lang.annotation.*;
 @Target(ElementType.TYPE)
 @Repeatable(EmpleadosAnot.class)
 public @interface EmpleadoAnot {
+    //Atributos
     String nombre() default "VOID";
     String apellidos();
     String direccion();
