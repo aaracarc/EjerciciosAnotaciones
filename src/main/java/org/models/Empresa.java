@@ -1,6 +1,6 @@
 package org.models;
 
-import anotations.EmpleadoAnot;
+import org.anotations.EmpleadoAnot;
 
 import java.util.HashSet;
 import java.util.Set;

@@ -4,25 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="16a37959-4e82-4a82-96a7-42ed419223b8" name="Changes" comment="Avance">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/models/Directivo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/models/Empleado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/models/Oficial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/models/Operario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/models/Tecnico.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/utils/UtilContexto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Anotations/EmpleadoAnot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/anotations/EmpleadoAnot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Anotations/EmpleadosAnot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/anotations/EmpleadosAnot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/ejercicios/Directivo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/ejercicios/Empleado.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/ejercicios/Empresa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/models/Empresa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/ejercicios/Oficial.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/ejercicios/Operario.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/ejercicios/Tecnico.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/ejercicios/UtilContexto.java" beforeDir="false" />
+    <list default="true" id="16a37959-4e82-4a82-96a7-42ed419223b8" name="Changes" comment="Terminado">
+      <change beforePath="$PROJECT_DIR$/src/main/java/anotations/EmpleadoAnot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/anotations/EmpleadoAnot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anotations/EmpleadosAnot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/anotations/EmpleadosAnot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/models/Empresa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/models/Empresa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/utils/UtilContexto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/utils/UtilContexto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,7 +144,7 @@
       <workItem from="1696588031828" duration="883000" />
       <workItem from="1697008362109" duration="3402000" />
       <workItem from="1697017358127" duration="83000" />
-      <workItem from="1697034444782" duration="4684000" />
+      <workItem from="1697034444782" duration="5019000" />
     </task>
     <task id="LOCAL-00001" summary="Creacion proyecto">
       <option name="closed" value="true" />
@@ -200,7 +186,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697010804368</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Terminado">
+      <option name="closed" value="true" />
+      <created>1697039414713</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1697039414713</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,6 +204,7 @@
     <MESSAGE value="Creacion proyecto" />
     <MESSAGE value="prueba" />
     <MESSAGE value="Avance" />
-    <option name="LAST_COMMIT_MESSAGE" value="Avance" />
+    <MESSAGE value="Terminado" />
+    <option name="LAST_COMMIT_MESSAGE" value="Terminado" />
   </component>
 </project>
