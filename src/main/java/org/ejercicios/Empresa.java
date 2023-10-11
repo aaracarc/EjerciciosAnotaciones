@@ -1,17 +1,25 @@
 package org.ejercicios;
 
-import Anotations.EmpleadoI;
+import Anotations.EmpleadoAnot;
 
+import java.util.HashSet;
+import java.util.Set;
+
+@EmpleadoAnot(
+        value = {}, nombre = "Amancio", apellidos = "Ortega", dni = "66554433F")
 public class Empresa {
-    @EmpleadoI(
-            nombre = "Amancio",
-            apellidos = "Ortega",
-            dni = "66554433F",
-            direccion = "AV.DIPUTACION S/N, P.I. SABON 15142, ARTEIXO, LA CORUÑA",
-            telefono = "981185596",
-            clase = "Directivo",
-            codigoDespacho = "1"
-    )
+    private Set<Empleado> empleadoset = new HashSet<>();
 
+    public Empresa(){}
 
+    public Set<Empleado> getEmpleadoset() {
+        return empleadoset;
+    }
+
+    @Override
+    public String toString() {
+        return "Empresa{" +
+                "empleadoset=" + empleadoset +
+                '}';
+    }
 }

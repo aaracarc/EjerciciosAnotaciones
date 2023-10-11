@@ -1,4 +1,4 @@
 package org.ejercicios;
 
-public class Tecnico {
+public class Tecnico extends Operario {
 }
