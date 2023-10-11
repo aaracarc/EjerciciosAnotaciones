@@ -1,12 +1,10 @@
 package Anotations;
 
-import java.lang.annotation.ElementType;
-import java.lang.annotation.Retention;
-import java.lang.annotation.RetentionPolicy;
-import java.lang.annotation.Target;
+import java.lang.annotation.*;
 
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.TYPE)
+@Repeatable(EmpleadosAnot.class)
 public @interface EmpleadoAnot {
     String nombre() default "VOID";
     String apellidos();

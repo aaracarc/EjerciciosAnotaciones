@@ -1,10 +1,11 @@
 package org.ejercicios;
 
 import Anotations.EmpleadoAnot;
+import Anotations.EmpleadosAnot;
 
 public class UtilContexto {
     public static void cargadorDeContexto(Empresa empresa){
-        EmpleadoAnot empleadoAnotPadre = empresa.getClass().getAnnotation(EmpleadoAnot.class);
+        EmpleadosAnot empleadoAnotPadre = empresa.getClass().getAnnotation(EmpleadosAnot.class);
         EmpleadoAnot[] empleadoAnotHijos = empleadoAnotPadre.value();
 
         for (EmpleadoAnot empleadoAnotHijo: empleadoAnotHijos
